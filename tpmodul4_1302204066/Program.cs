@@ -10,7 +10,8 @@ namespace tpmodul4_1302204066
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Samlikum");
+            DataGeneric<String> data = new DataGeneric<string>("1302204066");
+            data.PrintInfo();
         }
     }
 }
