@@ -10,6 +10,8 @@ namespace tpmodul4_1302204066
     {
         static void Main(string[] args)
         {
+            DataGeneric<String> data = new DataGeneric<string>("1302204066");
+            data.PrintInfo();
             HaloGeneric<String> halo = new HaloGeneric<string>();
             halo.SapaUser("Lutfi");
         }
